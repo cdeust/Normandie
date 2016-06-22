@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3jL-4h-8m6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3jL-4h-8m6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -114,24 +114,56 @@
                                 <rect key="frame" x="406" y="426" width="194" height="92"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </button>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYn-Xy-qcb">
-                                <rect key="frame" x="0.0" y="162" width="172" height="54"/>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTz-am-Rgg">
+                                <rect key="frame" x="0.0" y="162" width="226" height="51"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="172" id="Egb-Be-aIv"/>
-                                    <constraint firstAttribute="height" constant="54" id="oWD-qx-OGj"/>
+                                    <constraint firstAttribute="width" constant="226" id="axw-qC-mmH"/>
+                                    <constraint firstAttribute="height" constant="51" id="hMi-SG-5Lo"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RQ3-uV-YuT">
-                                <rect key="frame" x="20" y="175" width="144" height="27"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fQH-DJ-WMa">
+                                <rect key="frame" x="20" y="174" width="198" height="27"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu5-DB-DjZ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normandy in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JO-ie-SEm">
+                                        <rect key="frame" x="0.0" y="0.0" width="134" height="27"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaW-pg-cPW">
+                                        <rect key="frame" x="139" y="0.0" width="59" height="27"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNg-pC-vri">
+                                <rect key="frame" x="0.0" y="162" width="226" height="51"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="h6j-bi-bz1" kind="show" animates="NO" id="VYX-Ff-lq4"/>
+                                </connections>
+                            </button>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSF-12-vak">
+                                <rect key="frame" x="0.0" y="229" width="172" height="54"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="CGI-Dq-fhL"/>
+                                    <constraint firstAttribute="width" constant="172" id="Ut8-Ls-ceX"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Dge-C2-Glq">
+                                <rect key="frame" x="20" y="241" width="144" height="27"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5q-G0-thB">
                                         <rect key="frame" x="0.0" y="0.0" width="99" height="27"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLb-8h-XNm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVQ-lp-4hs">
                                         <rect key="frame" x="104" y="0.0" width="40" height="27"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -139,37 +171,40 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbW-C5-BC0">
-                                <rect key="frame" x="0.0" y="162" width="172" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-Wd-LRN">
+                                <rect key="frame" x="0.0" y="229" width="172" height="54"/>
                                 <connections>
-                                    <segue destination="wqc-Y9-rDY" kind="show" animates="NO" id="IKW-nt-Gpp"/>
+                                    <segue destination="wqc-Y9-rDY" kind="show" animates="NO" id="c6G-M5-xkt"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fbW-C5-BC0" firstAttribute="height" secondItem="mYn-Xy-qcb" secondAttribute="height" id="3dM-Ct-ic7"/>
+                            <constraint firstItem="Esl-Wd-LRN" firstAttribute="top" secondItem="MNg-pC-vri" secondAttribute="bottom" constant="16" id="8GR-RD-EBz"/>
                             <constraint firstItem="duh-rb-SDw" firstAttribute="width" secondItem="R0I-BQ-yYm" secondAttribute="width" id="943-8I-nR3"/>
-                            <constraint firstItem="mYn-Xy-qcb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Byr-cW-5B1"/>
+                            <constraint firstItem="fQH-DJ-WMa" firstAttribute="top" secondItem="jwz-Ox-fcI" secondAttribute="bottom" constant="50" id="9pn-LE-0Q2"/>
                             <constraint firstItem="R0I-BQ-yYm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="COj-5n-Hye"/>
                             <constraint firstAttribute="trailing" secondItem="6zg-hf-2ji" secondAttribute="trailing" id="CSZ-u9-LMC"/>
+                            <constraint firstItem="Esl-Wd-LRN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Cun-oQ-Yd3"/>
                             <constraint firstItem="9GH-Q8-ZBr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="D3f-Th-o0P"/>
+                            <constraint firstItem="HTz-am-Rgg" firstAttribute="height" secondItem="MNg-pC-vri" secondAttribute="height" id="D6y-fA-0Nr"/>
                             <constraint firstItem="duh-rb-SDw" firstAttribute="height" secondItem="R0I-BQ-yYm" secondAttribute="height" id="Eow-GP-P8v"/>
                             <constraint firstAttribute="trailing" secondItem="aUB-1b-4Z7" secondAttribute="trailing" id="F7G-Va-XJN"/>
-                            <constraint firstItem="fbW-C5-BC0" firstAttribute="top" secondItem="R0I-BQ-yYm" secondAttribute="bottom" constant="16" id="GAk-5T-Tih"/>
-                            <constraint firstItem="RQ3-uV-YuT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hgd-q6-7oP"/>
-                            <constraint firstItem="fbW-C5-BC0" firstAttribute="width" secondItem="mYn-Xy-qcb" secondAttribute="width" id="JtS-kW-UfD"/>
+                            <constraint firstItem="HTz-am-Rgg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FhU-Ws-uCg"/>
+                            <constraint firstItem="fQH-DJ-WMa" firstAttribute="top" secondItem="R0I-BQ-yYm" secondAttribute="bottom" constant="28" id="Hmc-sC-JvF"/>
                             <constraint firstItem="duh-rb-SDw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KIg-Z1-YEQ"/>
                             <constraint firstItem="GNq-ux-0fC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KOb-xy-6DD"/>
                             <constraint firstItem="h9p-Ww-ePc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nws-eA-Nll"/>
+                            <constraint firstItem="MNg-pC-vri" firstAttribute="top" secondItem="R0I-BQ-yYm" secondAttribute="bottom" constant="16" id="OVp-sp-GPU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Nll-2Q-9ma" secondAttribute="trailing" id="PNn-QW-F7q"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aUB-1b-4Z7" secondAttribute="bottom" constant="82" id="QZH-7W-Y71"/>
                             <constraint firstItem="aUB-1b-4Z7" firstAttribute="width" secondItem="KuQ-wv-QEZ" secondAttribute="width" id="TGp-2P-vhZ"/>
-                            <constraint firstItem="fbW-C5-BC0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UxI-TD-Lei"/>
-                            <constraint firstItem="RQ3-uV-YuT" firstAttribute="top" secondItem="jwz-Ox-fcI" secondAttribute="bottom" constant="41" id="Xvq-Hr-vUY"/>
+                            <constraint firstItem="MNg-pC-vri" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xmb-z5-lh6"/>
+                            <constraint firstItem="Dge-C2-Glq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Yei-lm-mvt"/>
                             <constraint firstItem="jwz-Ox-fcI" firstAttribute="top" secondItem="GNq-ux-0fC" secondAttribute="bottom" constant="40" id="ado-jx-0cp"/>
                             <constraint firstItem="6zg-hf-2ji" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bjh-0C-FOh"/>
-                            <constraint firstItem="mYn-Xy-qcb" firstAttribute="top" secondItem="R0I-BQ-yYm" secondAttribute="bottom" constant="16" id="cJl-6T-V5c"/>
+                            <constraint firstItem="QSF-12-vak" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bqu-PN-PHg"/>
+                            <constraint firstItem="HTz-am-Rgg" firstAttribute="top" secondItem="R0I-BQ-yYm" secondAttribute="bottom" constant="16" id="cHw-Qc-R9l"/>
                             <constraint firstAttribute="trailing" secondItem="KuQ-wv-QEZ" secondAttribute="trailing" id="ccf-lf-mUm"/>
                             <constraint firstAttribute="bottom" secondItem="6zg-hf-2ji" secondAttribute="bottom" id="e9M-de-t8w"/>
                             <constraint firstItem="R0I-BQ-yYm" firstAttribute="top" secondItem="9GH-Q8-ZBr" secondAttribute="bottom" constant="16" id="fXh-0O-Way"/>
@@ -177,14 +212,25 @@
                             <constraint firstItem="6zg-hf-2ji" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hRF-fS-04f"/>
                             <constraint firstItem="duh-rb-SDw" firstAttribute="top" secondItem="9GH-Q8-ZBr" secondAttribute="bottom" constant="16" id="j79-fl-yCW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Nll-2Q-9ma" secondAttribute="bottom" constant="91" id="kLM-5T-Jfu"/>
+                            <constraint firstItem="fQH-DJ-WMa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="lAi-hR-6dA"/>
+                            <constraint firstItem="Esl-Wd-LRN" firstAttribute="width" secondItem="QSF-12-vak" secondAttribute="width" id="lKg-Hu-5af"/>
                             <constraint firstItem="h9p-Ww-ePc" firstAttribute="height" secondItem="9GH-Q8-ZBr" secondAttribute="height" id="lb9-Li-cRl"/>
+                            <constraint firstItem="QSF-12-vak" firstAttribute="top" secondItem="MNg-pC-vri" secondAttribute="bottom" constant="16" id="nLz-DQ-7uP"/>
                             <constraint firstItem="h9p-Ww-ePc" firstAttribute="width" secondItem="9GH-Q8-ZBr" secondAttribute="width" id="nTS-tq-07M"/>
+                            <constraint firstItem="Esl-Wd-LRN" firstAttribute="height" secondItem="QSF-12-vak" secondAttribute="height" id="o10-o2-9E6"/>
+                            <constraint firstItem="HTz-am-Rgg" firstAttribute="width" secondItem="MNg-pC-vri" secondAttribute="width" id="qss-Zt-v97"/>
                             <constraint firstItem="h9p-Ww-ePc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="r9i-gv-RNx"/>
                             <constraint firstItem="GNq-ux-0fC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ruP-2Y-xsX"/>
                             <constraint firstItem="9GH-Q8-ZBr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="w8B-X1-p8k"/>
                             <constraint firstItem="aUB-1b-4Z7" firstAttribute="height" secondItem="KuQ-wv-QEZ" secondAttribute="height" id="xPZ-Ol-3rg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KuQ-wv-QEZ" secondAttribute="bottom" constant="82" id="zV1-VM-hiH"/>
+                            <constraint firstItem="Dge-C2-Glq" firstAttribute="top" secondItem="MNg-pC-vri" secondAttribute="bottom" constant="28" id="zwE-jT-ebh"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9pn-LE-0Q2"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="efr-ve-gtJ"/>
                 </viewController>
@@ -1001,138 +1047,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xd6-zF-C4b">
                                 <rect key="frame" x="0.0" y="120" width="600" height="480"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDy-MU-uzw">
-                                        <rect key="frame" x="10" y="85" width="580" height="310"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_player" translatesAutoresizingMaskIntoConstraints="NO" id="xsp-fW-dZ0">
-                                                <rect key="frame" x="0.0" y="0.0" width="580" height="310"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V02-Vm-ZwA">
-                                                <rect key="frame" x="0.0" y="0.0" width="580" height="310"/>
-                                                <connections>
-                                                    <action selector="playVideoInsideAVKit" destination="h6j-bi-bz1" eventType="touchUpInside" id="Kns-Oj-khO"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="xsp-fW-dZ0" secondAttribute="bottom" id="3bl-t3-k9n"/>
-                                            <constraint firstAttribute="trailing" secondItem="xsp-fW-dZ0" secondAttribute="trailing" id="8vw-WI-b99"/>
-                                            <constraint firstItem="V02-Vm-ZwA" firstAttribute="centerY" secondItem="UDy-MU-uzw" secondAttribute="centerY" id="H0U-hf-3Z1"/>
-                                            <constraint firstItem="V02-Vm-ZwA" firstAttribute="height" secondItem="xsp-fW-dZ0" secondAttribute="height" id="WzR-cr-r1g"/>
-                                            <constraint firstItem="xsp-fW-dZ0" firstAttribute="top" secondItem="UDy-MU-uzw" secondAttribute="top" id="cvX-aL-egZ"/>
-                                            <constraint firstItem="V02-Vm-ZwA" firstAttribute="width" secondItem="xsp-fW-dZ0" secondAttribute="width" id="dP0-n6-lXK"/>
-                                            <constraint firstItem="xsp-fW-dZ0" firstAttribute="leading" secondItem="UDy-MU-uzw" secondAttribute="leading" id="eOf-n0-Wdx"/>
-                                            <constraint firstItem="V02-Vm-ZwA" firstAttribute="centerX" secondItem="UDy-MU-uzw" secondAttribute="centerX" id="xZM-mt-diP"/>
-                                        </constraints>
-                                        <variation key="heightClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="widthClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact-widthClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <mask key="constraints">
-                                                <include reference="H0U-hf-3Z1"/>
-                                                <include reference="WzR-cr-r1g"/>
-                                                <include reference="dP0-n6-lXK"/>
-                                                <include reference="xZM-mt-diP"/>
-                                            </mask>
-                                        </variation>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlayBtn" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-S4-sTo">
-                                        <rect key="frame" x="275" y="215" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="EGM-Kg-DII"/>
-                                            <constraint firstAttribute="height" constant="50" id="lNe-IT-Lz7"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="RDB-S4-sTo" firstAttribute="centerY" secondItem="xd6-zF-C4b" secondAttribute="centerY" id="AUh-Eq-bHi"/>
-                                    <constraint firstItem="UDy-MU-uzw" firstAttribute="leading" secondItem="xd6-zF-C4b" secondAttribute="leading" constant="10" id="Hli-Vz-Xo7"/>
-                                    <constraint firstItem="UDy-MU-uzw" firstAttribute="top" secondItem="xd6-zF-C4b" secondAttribute="top" constant="85" id="PHm-YF-BtH">
-                                        <variation key="heightClass=compact" constant="10"/>
-                                        <variation key="widthClass=regular" constant="10"/>
-                                        <variation key="heightClass=compact-widthClass=compact" constant="10"/>
-                                    </constraint>
-                                    <constraint firstItem="RDB-S4-sTo" firstAttribute="centerX" secondItem="xd6-zF-C4b" secondAttribute="centerX" id="ib6-eo-NcK"/>
-                                    <constraint firstAttribute="bottom" secondItem="UDy-MU-uzw" secondAttribute="bottom" constant="85" id="ifU-u7-s52">
-                                        <variation key="heightClass=compact" constant="10"/>
-                                        <variation key="widthClass=regular" constant="10"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="10"/>
-                                    </constraint>
-                                    <constraint firstAttribute="trailing" secondItem="UDy-MU-uzw" secondAttribute="trailing" constant="10" id="xcR-pq-rR8"/>
-                                </constraints>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="PHm-YF-BtH"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="PHm-YF-BtH"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="PHm-YF-BtH"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="PHm-YF-BtH"/>
-                                    </mask>
-                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1174,6 +1089,9 @@
                             <constraint firstItem="xd6-zF-C4b" firstAttribute="centerY" secondItem="ttF-sE-UFs" secondAttribute="centerY" multiplier="1.2" id="yhd-GB-6fO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="videoContainer" destination="xd6-zF-C4b" id="ZB2-MO-lIx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LQ7-Om-Bmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2201,7 +2119,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rM3-BB-mxf">
                                                 <rect key="frame" x="8" y="8" width="584" height="420"/>
-                                                <mutableString key="text">​In 708, the Archangel Saint Michael appeared to Saint Aubert Bishop of Avranches and commanded him to build a sanctuary on the ‘Mont Tombe’ where the archangel fought the Devil. The victor over evil, it is also Michael who weighs the souls at the Final Judgement. His sanctuary rapidly became a major site of pilgrimage where men came to seek comfort for a good death.The sanctuary has therefore become a renowned site, protected by Charlemagne but also pillaged by the Vikings in 847. Rollon the First (911-927), then his son William Longsword (927-942), understood the spiritual importance of the site and rapidly restored and provided it with the monastery. From this moment on, the Norman dynasty would heavily rely on the prestige of the Abbey and the Norman knights would commend themselves to the protection of the Archangel who was also the captain of the celestial hosts.\n\nIn 965, Duke Richard I favours the installation of the Benedictine monks, architects of the new Abbey. On the mount, the physical constraints of the site imposed the construction of classical abbey buildings in superimposed levels, the church crowning the pyramid.  In the present building we especially admire “La Merveille” (The Marvel) (the abbey buildings) of the beginning of the 13th century and the Gothic choir.  Yet the nave of the abbey church shows a very beautiful example of the elevation on three levels of the Romanesque period and the Saint-Martin crypt or the church of Notre-Dame-sous-Terre are examples of the architecture of the time of the first dukes (10th century).  The Gothic cloister, where the columns of Purbeck marble (Dorset) support decoration in Caen Stone, expresses the richness and the prestige of the sanctuary that will continue to attract pilgrims from Normandy, England and from all over Europe. The scriptorium of the ‘Mont’ was, from the age of the dukes of Normandy, one of the richest and most important Western libraries.</mutableString>
+                                                <string key="text">​In 708, the Archangel Saint Michael appeared to Saint Aubert Bishop of Avranches and commanded him to build a sanctuary on the ‘Mont Tombe’ where the archangel fought the Devil. The victor over evil, it is also Michael who weighs the souls at the Final Judgement. His sanctuary rapidly became a major site of pilgrimage where men came to seek comfort for a good death.The sanctuary has therefore become a renowned site, protected by Charlemagne but also pillaged by the Vikings in 847. Rollon the First (911-927), then his son William Longsword (927-942), understood the spiritual importance of the site and rapidly restored and provided it with the monastery. From this moment on, the Norman dynasty would heavily rely on the prestige of the Abbey and the Norman knights would commend themselves to the protection of the Archangel who was also the captain of the celestial hosts.\n\nIn 965, Duke Richard I favours the installation of the Benedictine monks, architects of the new Abbey. On the mount, the physical constraints of the site imposed the construction of classical abbey buildings in superimposed levels, the church crowning the pyramid.  In the present building we especially admire “La Merveille” (The Marvel) (the abbey buildings) of the beginning of the 13th century and the Gothic choir.  Yet the nave of the abbey church shows a very beautiful example of the elevation on three levels of the Romanesque period and the Saint-Martin crypt or the church of Notre-Dame-sous-Terre are examples of the architecture of the time of the first dukes (10th century).  The Gothic cloister, where the columns of Purbeck marble (Dorset) support decoration in Caen Stone, expresses the richness and the prestige of the sanctuary that will continue to attract pilgrims from Normandy, England and from all over Europe. The scriptorium of the ‘Mont’ was, from the age of the dukes of Normandy, one of the richest and most important Western libraries.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -2551,12 +2469,10 @@ Today, Normandy's battle scars have long healed, and the region is prosperous on
     </scenes>
     <resources>
         <image name="Oval 1" width="100" height="100"/>
-        <image name="PlayBtn" width="128" height="128"/>
         <image name="bed" width="50" height="37"/>
         <image name="etretatview" width="1200" height="800"/>
         <image name="location" width="34" height="48"/>
         <image name="map" width="48" height="42"/>
         <image name="stmichel" width="1920" height="1080"/>
-        <image name="video_player" width="1920" height="1080"/>
     </resources>
 </document>
